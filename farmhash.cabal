@@ -1,5 +1,5 @@
 name:                farmhash
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Fast hash functions.
 description:
     This package provides bindings to the farmhash library.
