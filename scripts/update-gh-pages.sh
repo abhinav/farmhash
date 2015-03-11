@@ -30,7 +30,12 @@ popd
 
 pushd "$ROOT/gh-pages"
 mkdir benchmark
-cp ../bench/report.html benchmark/index.html
+if [[ -f ../report.html ]]; then
+	echo "Copying benchmark report."
+	cp ../report.html benchmark/index.html
+else
+	echo "WARNING: Benchmark report not found."
+fi
 git add .
 git commit -m "Documentation update at $(date '+%FT%T%z')"
 popd
