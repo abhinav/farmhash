@@ -1,5 +1,5 @@
 name:                farmhash
-version:             0.1.0.1
+version:             0.1.0.2
 synopsis:            Fast hash functions.
 description:
     This package provides bindings to the farmhash library.
@@ -34,6 +34,7 @@ library
   ghc-options      : -Wall
   include-dirs     : include
   includes         : farmhash_c.h
+  cc-options       : -fno-exceptions
   c-sources        : cbits/farmhash.cc
                    , cbits/farmhash_c.cc
 
