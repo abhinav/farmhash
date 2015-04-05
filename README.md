@@ -1,7 +1,7 @@
 `farmhash`
 ==========
 
-This package provides bindings to the [`farmhash`][] library.
+This package provides bindings to the `farmhash` library.
 
 FarmHash is a family of very fast hash functions (see [`farmhash`][]). They are
 not suitable for cryptography.
