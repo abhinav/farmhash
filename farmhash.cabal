@@ -10,7 +10,7 @@ description:
     .
     This package bundles the library with it so there are no external
     dependencies.
-homepage:            https://github.com/abhinav/haskell-farmhash
+homepage:            https://github.com/abhinav/farmhash
 license:             BSD3
 license-file:        LICENSE
 author:              Abhinav Gupta
@@ -66,4 +66,4 @@ benchmark bench-farmhash
 
 source-repository head
   type    : git
-  location: git://github.com/abhinav/haskell-farmhash.git
+  location: git://github.com/abhinav/farmhash.git
