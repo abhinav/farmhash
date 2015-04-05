@@ -11,5 +11,5 @@ The benchmark report is available [here][1].
 
   [`farmhash`]: https://code.google.com/p/farmhash/
   [Hackage]: http://hackage.haskell.org/package/farmhash
-  [here]: http://abhinavg.net/haskell-farmhash/
-  [1]: http://abhinavg.net/haskell-farmhash/benchmark/
+  [here]: http://abhinavg.net/farmhash/
+  [1]: http://abhinavg.net/farmhash/benchmark/
