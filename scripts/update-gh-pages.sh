@@ -10,7 +10,7 @@ findUp() {
 
 ROOT=$(findUp "." "farmhash.cabal")
 
-BASE="https://github.com/abhinav/haskell-farmhash/tree/master"
+BASE="https://github.com/abhinav/farmhash/tree/master"
 
 OPTIONS="\
 	--source-base=\"$BASE/\" \
