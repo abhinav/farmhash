@@ -1,3 +1,13 @@
+0.1.0.4
+=======
+
+-   Loosen more version constraints.
+
+0.1.0.3
+=======
+
+-   Loosen version constraints for `base`.
+
 0.1.0.2
 =======
 
